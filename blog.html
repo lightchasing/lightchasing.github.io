@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets//images/favicon.ico">
+  <title>追光</title>
+  <meta name="description" content="light chaser" />
+  <meta name="keywords"
+    content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
+  <meta name="author" content="beingeorge" />
+  <meta name="theme-color" content="#2a2d35">
+
+  <!-- Vendor Css-->
+  <link rel="stylesheet" href="assets/css/vendor.css" />
+  <link rel="stylesheet" href="assets/css/LineIcons.min.css" />
+
+  <!-- TamTemplate style Css -->
+  <link href="assets/css/tam.css" rel="stylesheet">
+
+  <!-- Custom style Css -->
+  <!-- <link href="assets/css/custom.css" rel="stylesheet"> -->
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+
+  <!-- START: Preloader -->
+  <div id="preloader" class="preloader">
+    <div class="spinner-grow text-dark" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+  <!-- END: Preloader -->
+
+
+  <!-- START: Aside -->
+  <aside class="aside">
+    <!-- START: NAVBAR -->
+
+    <div class="nav-wrapper">
+
+      <div class="navbar-toggler">
+        <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="60">
+          <path class="line top"
+            d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+          <path class="line middle" d="m 30,50 h 40" />
+          <path class="line bottom"
+            d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+        </svg>
+      </div>
+
+      <nav class="navbar text-center align-items-center justify-content-center">
+
+
+
+        <div class="collapse navbar-collapse show" id="navbarCollapse">
+          <div class="about-avatar mb-5">
+            <a href="index.html">
+              <img src="assets/images/about.jpg" alt="" class="img-fluid mx-auto d-block shadow-sm rounded-full">
+            </a>
+
+            <div class="about-avatar-details mt-4">
+              <h1>李勇兴</h1>
+              <p class="badge">Web 前端</p>
+            </div>
+          </div>
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"><i class="lni-home"></i>首页</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resume.html"><i class="lni-briefcase"></i>简历</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html"><i class="lni-graduation"></i>技能</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html"><i class="lni-offer"></i>服务</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="blog.html"><i class="lni-pencil"></i></i>博客</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"><i class="lni-phone-handset"></i>联系方式</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- END: NAVBAR -->
+  </aside>
+  <!-- START: Aside -->
+
+  <div class="page-overlay">
+    <span class="overlay-1"></span>
+    <span class="overlay-2"></span>
+  </div>
+
+  <div class="page-wrapper">
+
+    <!-- START: BLOG -->
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-head">
+          <span>我的文章</span>
+          <h2>博客</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <a href="#" class="blog-list d-block mb-5">
+              <div class="blog-list--img">
+                <img src="assets/images/blog-1.jpg" alt="Blog Image" class="img-fluid">
+                <div class="blog-list--details d-flex justify-content-center align-items-center">
+                  <div class="blog-list--details-in">
+                    <p class="blog-date text-white">02 Jan, 2022</p>
+                    <span class="blog-cat">light chaser</span>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-list--desc mt-4">
+                <h3>跨域时怎样处理cookie</h3>
+                <p>一个请求从发出到返回，需要浏览器和服务端的协调配合。浏览器要把自己的请求参数带给服务端，服务端校验参数之后，除了返回数据，也可能会顺便把请求是否缓存，cookie等信息告诉浏览器...</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a href="#" class="blog-list d-block mb-5">
+              <div class="blog-list--img">
+                <img src="assets/images/blog-2.jpg" alt="Blog Image" class="img-fluid">
+                <div class="blog-list--details d-flex justify-content-center align-items-center">
+                  <div class="blog-list--details-in">
+                    <p class="blog-date text-white">02 Jan, 2022</p>
+                    <span class="blog-cat">light chaser</span>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-list--desc mt-4">
+                <h3>实现DNS预解析</h3>
+                <p>在介绍dns-prefetch之前，先要提下当前对于DNS优化主流方法。
+                  一般来说，一次DNS解析需要耗费 20-120ms，所以为了优化DNS.....</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a href="#" class="blog-list d-block mb-5">
+              <div class="blog-list--img">
+                <img src="assets/images/blog-3.jpg" alt="Blog Image" class="img-fluid">
+                <div class="blog-list--details d-flex justify-content-center align-items-center">
+                  <div class="blog-list--details-in">
+                    <p class="blog-date text-white">02 Jan, 2022</p>
+                    <span class="blog-cat">light chaser</span>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-list--desc mt-4">
+                <h3>vue diff 算法</h3>
+                <p>diff 算法是一种通过同层的树节点进行比较的高效算法,其有两个特点：比较只会在同层级进行, 不会跨层级比较;在diff比较的过程中，循环从两边向中间比较
+                  diff 算法的在很多场景下都有应用，在 vue 中，作用于虚拟 dom 渲染成真实 dom 的新旧 VNode 节点比较.....</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a href="#" class="blog-list d-block mb-5">
+              <div class="blog-list--img">
+                <img src="assets/images/blog-4.jpg" alt="Blog Image" class="img-fluid">
+                <div class="blog-list--details d-flex justify-content-center align-items-center">
+                  <div class="blog-list--details-in">
+                    <p class="blog-date text-white">02 Jan, 2022</p>
+                    <span class="blog-cat">light chaser</span>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-list--desc mt-4">
+                <h3>Vuex 是什么？</h3>
+                <p>Vuex 是一个专为 Vue.js 应用程序开发的状态管理模式。它采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化....</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a href="#" class="blog-list d-block mb-5">
+              <div class="blog-list--img">
+                <img src="assets/images/blog-5.jpg" alt="Blog Image" class="img-fluid">
+                <div class="blog-list--details d-flex justify-content-center align-items-center">
+                  <div class="blog-list--details-in">
+                    <p class="blog-date text-white">02 Jan, 2022</p>
+                    <span class="blog-cat">light chaser</span>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-list--desc mt-4">
+                <h3>虚拟DOM一定更快么？</h3>
+                <p>虚拟DOM是通过JS对象模拟出来的DOM节点,domDiff是通过特定算法计算出来一次操作所带来的DOM变化....</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a href="#" class="blog-list d-block mb-5">
+              <div class="blog-list--img">
+                <img src="assets/images/blog-6.jpg" alt="Blog Image" class="img-fluid">
+                <div class="blog-list--details d-flex justify-content-center align-items-center">
+                  <div class="blog-list--details-in">
+                    <p class="blog-date text-white">02 Jan, 2022</p>
+                    <span class="blog-cat">light chaser</span>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-list--desc mt-4">
+                <h3>SPA 页面首屏加载慢解决方案</h3>
+                <p>首屏时间（First Contentful Paint），指的是浏览器从响应用户输入网址地址，到首屏内容渲染完成的时间，此时整个网页不一定要全部渲染完成，但需要展示当前视窗需要的内容.....</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="container">
+          <nav class="mt-5 d-flex justify-content-center" aria-label="Page navigation">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <!-- END: BLOG -->
+
+    <!--START: FOOTER-->
+    <footer class="footer section section-light">
+      <div class="container">
+        <p class="copyright text-center mb-0">&copy; light chaser 2022<a href="#"></a></p>
+      </div>
+    </footer>
+    <!--END: FOOTER-->
+  </div>
+
+
+  <!-- JAVASCRIPTS -->
+
+  <script src="assets/js/vendor.js"></script>
+
+  <script src="assets/js/imagesloaded.pkgd.js"></script>
+  <script src="assets/js/jquery.shuffle.min.js"></script>
+  <script src="assets/js/custom-shuffle-init.js"></script>
+
+  <!-- Custom Js -->
+  <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
